@@ -2,11 +2,9 @@
 ## Unofficial YouTube skill for Alexa
 __Last update: 27 Dec 2019__
 
-
-## Sponsorship
-* First things first, I am asking for **$3/month** to use this skill. You can test it for free, but it will only ever play Gangnam Style.
-* You can donate through https://www.patreon.com/alexayoutube, or by clicking the **Sponsor** button at the top of this page. For just **$3/month**, I will give you a unique ARN which you can use to run this skill.
-* Email me at ndg63276@gmail.com to receive your ARN. Let me know what country you are in, and I will make sure the server is close to you, which makes it respond slightly faster.
+## Developing
+* Install virtualenv with `pip install virtualenv --user`
+* Activate virtualenv with `source skill_env/bin/activate`
 
 ## Features
 * Play audio from YouTube videos
