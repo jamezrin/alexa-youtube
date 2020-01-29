@@ -3,8 +3,15 @@
 __Last update: 27 Dec 2019__
 
 ## Developing
-* Install virtualenv with `pip install virtualenv --user`
-* Activate virtualenv with `source skill_env/bin/activate`
+
+For setting this up (for building and changing stuff) do
+
+1. Install virtualenv with `pip install virtualenv --user`
+2. Setup virtualenv with `virtualenv skill_env`
+3. Activate virtualenv with `source skill_env/bin/activate`
+4. Install requirements `pip install -r requirements.txt`
+
+To update dependencies do `pip freeze > requirements.txt`
 
 ## Features
 * Play audio from YouTube videos
